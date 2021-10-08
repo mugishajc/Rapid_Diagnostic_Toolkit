@@ -1,0 +1,3 @@
+include ':rd-toolkit-support'
+include ':app'
+rootProject.name = "Rapid Diagnostic Toolkit"

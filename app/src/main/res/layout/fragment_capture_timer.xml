@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.capture.CaptureTimerFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/capture_text_status"
+        android:text="@string/fragment_capture_loading_message" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+        <LinearLayout
+            android:id="@+id/capture_frame_time_resolving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/single_pad"
+            android:elevation="2dp"
+            android:visibility="gone"
+            >
+
+            <net.vrgsoft.arcprogress.ArcProgressBar
+                android:id="@+id/capture_resolve_countdown"
+                android:layout_width="@dimen/timer_countdown_size"
+                android:layout_height="@dimen/timer_countdown_size"
+                app:arc_progress_end_color="@color/color_progress_end"
+                app:arc_progress_start_color="@color/color_progress_start"
+                app:arc_suffix_text_size="0dp"
+                app:arc_text_color="@color/color_progress_end"
+                app:arc_thickness="@dimen/timer_arc_thickness"
+                app:arc_unfinished_color="@color/color_progress_unfinished"
+                app:barrierDirection="start" />
+
+            <CheckBox
+                android:id="@+id/capture_timer_cbx_early_disclaimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:visibility="gone"
+                android:text="@string/capture_timer_skip_disclaimer"
+                />
+
+            <Button
+                android:id="@+id/capture_btn_skip_timer"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingTop="8dp"
+                android:drawableLeft="@drawable/ic_baseline_timer_off_24"
+                android:drawablePadding="5dp"
+                android:onClick="skipTimer"
+                android:text="@string/capture_timer_skip_button" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/capture_frame_resolved"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/single_pad"
+            android:elevation="2dp"
+            android:visibility="invisible">
+
+            <ProgressBar
+                android:id="@+id/capture_timer_expiring_progress"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="@dimen/timer_countdown_size"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="100" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/capture_timer_expiring_countdown"
+                android:text="@string/capture_timer_expiring_countdown_msg" />
+
+            <Button
+                android:id="@+id/capture_btn_result"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_camera_white_24"
+                android:drawablePadding="5dp"
+                android:onClick="captureTestResult"
+                android:text="@string/capture_btn_take_prompt" />
+
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/capture_timer_results_pane"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:layout_margin="16dp">
+
+        <FrameLayout
+            android:layout_gravity="center"
+            android:paddingBottom="8dp"
+            android:layout_width="@dimen/timer_countdown_size"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/capture_timer_test_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:minHeight="100dp"
+                android:scaleType="centerInside" />
+            <ProgressBar
+                android:id="@+id/capture_timer_processing_overlay"
+                android:background="@color/background_unavailable_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/capture_timer_button_accept_error_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="overrideCaptureError"
+            android:visibility="gone"
+            style="@style/Button"
+            android:text="@string/capture_timer_accept_error_image" />
+
+        <TextView
+            android:id="@+id/capture_timer_process_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:visibility="invisible"
+            android:text="" />
+
+        <Button
+            android:id="@+id/capture_timer_view_error"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_problem_24"
+            android:drawablePadding="5dp"
+            android:visibility="invisible"
+            android:onClick="viewErrorDetails"
+            android:text="@string/fragment_capture_error_see_more_button_text" />
+
+    </LinearLayout>
+</LinearLayout>

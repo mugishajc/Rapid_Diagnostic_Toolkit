@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/content_frame_provision_height"
+    android:layout_gravity="center"
+    tools:context=".ui.instruct.SessionInstruct">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instruct_image_frame"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/provision_info_page_text">
+        <ImageView
+            android:id="@+id/provision_info_page_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </FrameLayout>
+
+
+    <org.rdtoolkit.util.ResizingTextView
+        android:id="@+id/provision_info_page_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintTop_toBottomOf="@id/instruct_image_frame"
+        style="@style/TextInstructions"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf= "@id/provision_checkbox_disclaimer"
+        android:text="Step 4: Squeeze the end of a fingertip and pierce the cleaned area of the fingertip using a lancet provided. Discard the lancet in the sharps box." />
+
+
+
+    <TextView
+        android:id="@+id/provision_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/TextInstructions"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:text="@string/reference_disclaimer_msg" />
+
+    <CheckBox
+        android:id="@+id/provision_checkbox_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/provision_info_nav_frame"
+        android:visibility="gone"
+        android:text="@string/reference_disclaimer_cbx_msg" />
+
+    <LinearLayout
+        android:id="@+id/provision_info_nav_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/provision_info_progress_dots"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/provision_info_btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="infoBackPressed"
+            style="@style/Button"
+            android:text="@string/button_back" />
+
+        <Button
+            android:id="@+id/provision_info_btn_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="infoNextPressed"
+            style="@style/Button"
+            android:text="@string/button_next" />
+
+    </LinearLayout>
+    <org.rdtoolkit.util.StatusDotView
+        android:id="@+id/provision_info_progress_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:maxDots="16"
+        app:currentItem="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

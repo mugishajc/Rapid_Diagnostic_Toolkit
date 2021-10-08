@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/test_session_navigation"
+    app:startDestination="@id/capture_timer">
+
+    <fragment
+        android:id="@+id/capture_timer"
+        android:name="org.rdtoolkit.ui.capture.CaptureTimerFragment"
+        android:label="@string/capture_timer_title"
+        tools:layout="@layout/fragment_capture_timer" >
+        <action
+            android:id="@+id/action_capture_timer_to_capture_resultsFragment"
+            app:destination="@id/capture_results" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/capture_results"
+        android:name="org.rdtoolkit.ui.capture.CaptureResultsFragment"
+        android:label="@string/capture_results_title" >
+        <action
+            android:id="@+id/action_capture_results_to_secondary"
+            app:destination="@id/capture_secondary"/>
+        <action
+            android:id="@+id/action_capture_results_to_captureRecordFragment"
+            app:destination="@id/capture_record" />
+        <action
+            android:id="@+id/action_capture_results_to_captureJobAid"
+            app:destination="@id/capture_job_aid" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/capture_job_aid"
+        android:name="org.rdtoolkit.ui.instruct.SessionInstruct"
+        android:label="@string/capture_job_aid_title"
+        tools:layout="@layout/fragment_provision_instruct" >
+        <action
+            android:id="@+id/action_capture_job_aid_to_results"
+            app:popUpTo="@+id/capture_results" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/capture_secondary"
+        android:name="org.rdtoolkit.ui.capture.CaptureSecondaryFragment"
+        android:label="@string/capture_secondary_title"
+        tools:layout="@layout/fragment_capture_secondary">
+        <action
+            android:id="@+id/action_capture_secondary_to_record"
+            app:destination="@id/capture_record"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/capture_record"
+        android:name="org.rdtoolkit.ui.capture.CaptureRecordFragment"
+        android:label="@string/capture_record_title"
+        tools:layout="@layout/fragment_capture_record">
+        <action
+            android:id="@+id/action_capture_record_to_work_check"
+            app:destination="@id/capture_check"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/capture_check"
+        android:name="org.rdtoolkit.ui.capture.CaptureCheckFragment"
+        android:label="@string/capture_record_title"
+        tools:layout="@layout/fragment_capture_check">
+    </fragment>
+
+    <action
+        android:id="@+id/capture_trigger_work_check"
+        app:popUpTo="@+id/capture_timer"
+        app:popUpToInclusive="true"
+        app:destination="@id/capture_results" />
+
+    <action
+        android:id="@+id/capture_expire_to_record"
+        app:popUpTo="@+id/capture_timer"
+        app:popUpToInclusive="true"
+        app:destination="@id/capture_record" />
+
+    <action
+        android:id="@+id/capture_start_fresh"
+        app:popUpTo="@+id/capture_record"
+        app:popUpToInclusive="true"
+        app:destination="@id/capture_timer" />
+
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#739296</color>
+    <color name="primaryLightColor">#a2c2c7</color>
+    <color name="primaryDarkColor">#466468</color>
+
+    <color name="secondaryColor">#767396</color>
+    <color name="secondaryLightColor">#a5a2c7</color>
+    <color name="secondaryDarkColor">#4a4868</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="color_bad">#c73d39</color>
+
+    <color name="color_progress_start">@color/secondaryLightColor</color>
+    <color name="color_progress_end">@color/secondaryDarkColor</color>
+    <color name="color_progress_unfinished">#D3D6DA</color>
+
+    <color name="background_unavailable_overlay">#80D3D6DA</color>
+
+    <color name="color_button_disabled">#D3D6DA</color>
+</resources>

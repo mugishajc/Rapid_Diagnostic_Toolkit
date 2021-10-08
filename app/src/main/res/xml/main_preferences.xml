@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ListPreference
+        android:key="language"
+        android:title="@string/preference_app_language"
+        app:useSimpleSummaryProvider="true"
+        android:defaultValue="system_default"
+        />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:summaryOn="@string/preferences_network_battery_on_summary"
+        android:title="@string/preferences_network_battery_title"
+        android:key="restrict_network_battery" />
+
+    <Preference
+        app:key="notification_settings"
+        app:title="@string/preferences_notifications_timers_title"
+        app:summary="@string/preferences_notifications_timers_summary"/>
+
+    <Preference
+        app:key="reset_disclaimers"
+        app:title="@string/preferences_disclaimer_reset_title"
+        app:summary="@string/preferences_disclaimer_reset_summary"/>
+
+    <PreferenceCategory
+        app:key="demo_settings"
+        app:summary="Settings for simulated sessions"
+        app:title="Demo Settings">
+
+        <ListPreference
+            app:key="diagnostic_id"
+            app:title="Simulated Diagnostic"/>
+
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>
