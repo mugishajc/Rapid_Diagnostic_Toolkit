@@ -77,4 +77,5 @@
     <string name="preference_app_language">Langue</string>
     <string name="preference_app_language_system_default">System Default (%s)</string>
     <string name="capture_timer_accept_error_image">Accepter l\'Image</string>
+    <string name="resolve_immediately">Resolve Immediately</string>
 </resources>

@@ -106,5 +106,6 @@
     <string name="capture_secondary_btn_capture">Maka sary fanampiny</string>
     <string name="provision_input_question_capture_card">Manana karatry ny sary ampiasaina amin\'ity TDR ity ve ianao?</string>
     <string name="capture_summary_status_extra_image">Sary fanampiny</string>
+    <string name="resolve_immediately">Resolve Immediately</string>
 
 </resources>

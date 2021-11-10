@@ -107,4 +107,5 @@
     <string name="capture_secondary_btn_capture">Capture Extra Image</string>
     <string name="provision_input_question_capture_card">Do you have a Capture Card to use with this RDT?</string>
     <string name="capture_summary_status_extra_image">Extra Image</string>
+    <string name="resolve_immediately">Resolve Immediately</string>
 </resources>

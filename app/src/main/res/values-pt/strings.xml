@@ -91,4 +91,5 @@
     <string name="preferences_notifications_timers_title">Configurar notificação de cronômetro</string>
     <string name="preferences_notifications_timers_summary">Altere as definições de notificação (som, vibração, etc) para quando os testes estiverem prontos</string>
     <string name="fragment_capture_review_instructions">Tem certeza? \ N \ nDe acordo com a revisão automática, suas escolhas podem precisar de mais uma revisão. Você pode usar o Job Aid para obter ajuda na interpretação do resultado do teste.</string>
+    <string name="resolve_immediately">Resolve Immediately</string>
 </resources>
