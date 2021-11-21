@@ -14,7 +14,7 @@
     <string name="adapter_result_name_msg">Enter Result for: %s</string>
     <string name="menu_sessions">Test Sessions</string>
     <string name="sessions_card_title_text">%s</string>
-    <string name="home_message_txt">Ikaze kuri Rapid Diagnostic Toolkit.\n\nThis app is intended to be launched from another supported app, but you can test out a test below</string>
+    <string name="home_message_txt">Welcome to the Rapid Diagnostic Toolkit.\n\nThis app is intended to be launched from another supported app, but you can test out a test below</string>
     <string name="tile_txt_flavor_one">%s - %s</string>
     <string name="tile_txt_test_line">%s</string>
     <string name="provision_begin_action">When the test cassette is prepared, press the button below</string>
