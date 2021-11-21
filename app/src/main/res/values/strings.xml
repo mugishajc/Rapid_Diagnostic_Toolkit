@@ -28,7 +28,7 @@
     <string name="fragment_capture_enter_results_prompt">Please provide your interpretation of the test result</string>
     <string name="fragment_capture_loading_message">Loading Test...</string>
     <string name="fragment_capture_error_see_more_button_text">See More...</string>
-    <string name="home_simulate_request_button_text">Tangiza ikizamini</string>
+    <string name="home_simulate_request_button_text">Start Test</string>
     <string name="fragment_provision_test_name_caption">Test to be Performed</string>
     <string name="fragment_provision_test_name_none_selected">No Test Selected</string>
     <string name="fragment_provision_test_resolve_time_caption">Time to Resolve</string>

@@ -1,6 +1,7 @@
 package org.rdtoolkit;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -25,6 +26,7 @@ import org.rdtoolkit.ui.home.HomeViewModel;
 import org.rdtoolkit.ui.provision.ProvisionViewModel;
 import org.rdtoolkit.util.InjectorUtils;
 
+import java.util.Locale;
 import java.util.UUID;
 
 import static org.rdtoolkit.support.interop.RdtIntentBuilder.ACTION_TEST_CAPTURE;
@@ -41,6 +43,19 @@ public class MainActivity extends LocaleAwareCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+        //set default language to kinyarwanda instead of english
+
+        String lang = "rw";
+        Locale locale = new Locale(lang);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config,
+                getBaseContext().getResources().getDisplayMetrics());
+
+
 
         homeViewModel =
                 new ViewModelProvider(this,
