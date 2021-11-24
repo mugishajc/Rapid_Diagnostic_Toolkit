@@ -12,6 +12,19 @@
         "page_5": "Insert the swab into an extraction buffer tube. While squeezing the buffer tube, stir the swab more than 5 times.",
         "page_6": "Remove the swab while squeezing the sides of the tube to extract the liquid from the swab.\n\n4. Press the nozzle cap tightly onto the tube.",
         "page_7": "Apply 3 drops of extracted specimen to the specimen well of the test device.\n\nRead the test result in 15-30 minutes."
+
+      }
+    },{
+      "lang":  "rw",
+      "strings":
+      {
+        "page_1": "page1",
+        "page_2": "gjh",
+        "page_3": "fghfjhouch",
+        "page_4": "fghjf",
+        "page_5": "fhjfh",
+        "page_6": "fhjfjh",
+        "page_7": "fhfg"
       }
     }
   ],
