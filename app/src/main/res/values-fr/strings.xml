@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="locale_key">Français</string>
     <string name="action_settings">Réglages</string>
 
@@ -78,4 +78,5 @@
     <string name="preference_app_language_system_default">System Default (%s)</string>
     <string name="capture_timer_accept_error_image">Accepter l\'Image</string>
     <string name="resolve_immediately">Resolve Immediately</string>
+    <string name="test_ac" tools:ignore="ExtraTranslation">Test</string>
 </resources>
