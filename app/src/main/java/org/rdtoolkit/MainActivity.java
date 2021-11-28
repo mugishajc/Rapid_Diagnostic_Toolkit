@@ -47,14 +47,13 @@ public class MainActivity extends LocaleAwareCompatActivity {
 
         //set default language to kinyarwanda instead of english
 
-        String lang = "rw";
-        Locale locale = new Locale(lang);
-        Locale.setDefault(locale);
-        Configuration config = new Configuration();
-        config.locale = locale;
-        getBaseContext().getResources().updateConfiguration(config,
-                getBaseContext().getResources().getDisplayMetrics());
-
+//        String lang = "rw";
+//        Locale locale = new Locale(lang);
+//        Locale.setDefault(locale);
+//        Configuration config = new Configuration();
+//        config.locale = locale;
+//        getBaseContext().getResources().updateConfiguration(config,
+//                getBaseContext().getResources().getDisplayMetrics());
 
 
         homeViewModel =
@@ -86,7 +85,6 @@ public class MainActivity extends LocaleAwareCompatActivity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
