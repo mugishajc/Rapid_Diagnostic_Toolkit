@@ -11,7 +11,7 @@
     <string name="title_activity_capture">Injiza ibisubizo</string>
     <string name="provision_begin_resolve_msg">Iki kizamini kirafata %s ngo ibisubizo biboneke</string>
     <string name="capture_timer_expiring_countdown_msg">Ibisubizo birata agaciro mu minota: %s</string>
-    <string name="adapter_result_name_msg">Injiza ibisubizo bya: %s</string>
+    <string name="adapter_result_name_msg">%s</string>
     <string name="menu_sessions"> Ibizamini byakozwe </string>
     <string name="sessions_card_title_text">%s</string>
     <string name="home_message_txt">Ikaze kuri application ya Rapid Diagnostic Toolkit.\n\n Iyi application igenewe gutangizwa muyindi application yabugenewe, ariko urashobora kugerageza ikizamini ukanze ahakurikira</string>

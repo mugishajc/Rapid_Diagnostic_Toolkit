@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/provision_begin_cbx_resolve_immediately"
             android:visibility="gone"
-            android:text="@string/resolve_immediately"
+            android:text="Emeza, urebe ibisubizo nonaha"
             />
 
         <TextView

@@ -5,14 +5,13 @@
       "lang":  "en",
       "strings":
       {
-        "page_1": "Carefully read instructions for using the STANDARD Q COVID-19 Ag Test",
-        "page_2": "Check the expiry date at the back of the foil pouch. Do not use the kit, if expiry date has passed.",
-        "page_3": "Yellow: Valid\nGreen: Invalid\n\nCheck the test device and the desiccant pack in the foil pouch.",
-        "page_4": "Insert a sterile swab into the nostril of the patient, swab over the surface of the posterior nasopharynx. Withdraw the sterile swab from the nasal cavity.",
-        "page_5": "Insert the swab into an extraction buffer tube. While squeezing the buffer tube, stir the swab more than 5 times.",
-        "page_6": "Remove the swab while squeezing the sides of the tube to extract the liquid from the swab.\n\n4. Press the nozzle cap tightly onto the tube.",
-        "page_7": "Apply 3 drops of extracted specimen to the specimen well of the test device.\n\nRead the test result in 15-30 minutes."
-
+        "page_1": "Soma amabwiriza yo gukoresha STANDARD Q COVID-19 Ag neza, kandi witonze",
+        "page_2": "Reba itariki kizarangiriraho ahajya inyuma. Ntukoreshe iki gikoresho, niba itariki kizarangiriraho yarageze.",
+        "page_3": "Umuhondo: Byemewe \nIcyatsi: Ntibyemewe \n \nReba igikoresho cyo gupima hamwe n'ibindi bisabwa.",
+        "page_4": "Injiza agakoresho kabigenewe mu izuru ry'usuzumwa, ukube ahajya hejuru, Hanyuma usohore ako gakoresho mu izuru",
+        "page_5": "Shyira ako gakoresho mu kandi gakoresho kabigenewe. Ugenda ukanda kanda, koroga ukoresheje ako gakoreho inshuro zirenze eshanu",
+        "page_6": "Kuramo ka gakoresho, ugenda ukanda mu mpande zaho kari kari kugirango kumuke",
+        "page_7": "Shyira ibitonyanga bitatu (3) ahabigenewe \n\nReba ibisubizo by'iki kizamini mu minota 15 - 30."
       }
     },{
       "lang":  "rw",

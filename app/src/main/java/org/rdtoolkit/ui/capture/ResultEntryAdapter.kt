@@ -134,12 +134,12 @@ class ControlFailureProfile : ResultProfile {
     }
 
     override fun readableName(): String {
-        return "Control Line"
+        return "Ese hari akarongo kagaragara ku nyuguti ya C?"
     }
 
     override fun outcomes(): Collection<DiagnosticOutcome> {
-        return listOf(ConcreteDiagnosticOutcome(UNIVERSAL_CONTROL_FAILURE, "Not present - Invalid test"),
-                ConcreteDiagnosticOutcome(CONTROL_VALID, "Present")
+        return listOf(ConcreteDiagnosticOutcome(UNIVERSAL_CONTROL_FAILURE, "Ntagahari-Igisubizo gipfuye"),
+                ConcreteDiagnosticOutcome(CONTROL_VALID, "Karagaragara")
         )
     }
 }
