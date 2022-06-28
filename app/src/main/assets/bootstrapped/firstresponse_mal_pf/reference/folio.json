@@ -16,7 +16,27 @@
         "page_9": "Add two drops of the assay buffer to the assay buffer well.",
         "page_10": "Interpret test results at 20 minutes (after recording the results, dispose of test device as biohazardous waste). Do not interpret after 30 minutes."
       }
+    },
+
+    {
+      "lang":  "rw",
+      "strings":
+      {
+        "page_1": "Zana Igisubizo cya mbere® Malariya Antigen P. falciparum (HRP2) Ikizamini cyikarita yubushyuhe bwicyumba (15-40 ℃) mbere yiminota 15 yo kwipimisha.",
+        "page_2": "Kuraho igikoresho cyikizamini hamwe nigikoresho cyo kwimura ibikoresho mumufuka hanyuma ubishyire hejuru, byumye hanyuma ushireho igikoresho cyibizamini hamwe numero y' ukekwaho indwara cg izina.",
+        "page_3": "Hanagura urutoki ukoresheje arukoru yabugenewe",
+        "page_4": "Jomba agashinge kurutoki ukoresheje agashinge kabugenewe",
+        "page_5": "Fata igikoresho cyo gufata amaraso ukihagaritse bityo ubashe gufata ibipimo by' ikitegererezo",
+        "page_6": "Kora buhoro witonze kumaraso",
+        "page_7": "Zamura agakoresho wifashishije mugufata amaraso y' ikitegererezo ",
+        "page_8": "Buhoro buhoro ongeramo 5 µl yamaraso yose kurugero ukoresheje ibikoresho byoherejwe. Nyuma yo gukoreshwa jugunya agakoresho wakoreshejwe mugufata ibipimo ahagenewe gushyirwa imyanda",
+        "page_9": "Ongeraho ibitonyanga bibiri by' amaraso muri ako kazu cg akenjye kabugenewe kuri ako gakoresho kagufasha gupima.",
+        "page_10": "Sobanura ibisubizo by'ibizamini mu minota 20 (nyuma yo kwandika ibisubizo, Bika agakoresho ko gupima ahabugenewe),witanga igisubizo nyuma yiminota 30."
+
+
+      }
     }
+
   ],
   "pamphlet" : {
     "pages": [

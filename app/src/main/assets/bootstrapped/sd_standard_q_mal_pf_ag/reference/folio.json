@@ -12,6 +12,19 @@
         "page_5": "5: To apply the collected capillary whole blood specimen to the specimen well (circle) of the test device, place the circular end of the inverted cup on the specimen well pad and then press down lightly.",
         "page_6": "6: Hold the buffer bottle at 90˚ (perpendicular) to the test device and not touching the specimen well to avoid contamination. Add 3 drops (90μl) of the buffer into the buffer well (square) of the test device."
       }
+    },
+    {
+      "lang":  "rw",
+      "strings":
+      {
+        "page_1": "1: Hitamo urutoki rudahamagarwa kandi usukure urutoki uhanagura ukoresheje arukoru nipamba byabugenewe.",
+        "page_2": "2: Arukoru imaze kuma neza wanahanaguye neza urutoki ,jomba urutoki ukoresheje agakoresho kabugenewe gafite agashinge kumutwe wako ",
+        "page_3": "3: Ihanagura igitonyanga cyambere cyamaraso hamwe na sterile gauze.",
+        "page_4": "4: Fata igikombe kidahinduka (5ul) cyatanzwe hanyuma ukusanyirize hamwe 5ul ya capillary yamaraso yuzuye mugushira impera yumuzingi wigikombe gihindagurika mukigereranyo.",
+        "page_5": "5: Gukoresha capillary yakusanyirijwe hamwe mumaraso yose yikigereranyo (umuzenguruko) wigikoresho cyo kwipimisha, shyira impera yumuzingi wigikombe cyahinduwe kuri padi nziza hanyuma ukande hasi byoroheje..",
+        "page_6": "6: Fata icupa rya buffer kuri 90˚ (perpendicular) kubikoresho bipimisha kandi ntukore ku cyitegererezo neza kugirango wirinde kwanduza. Ongeramo ibitonyanga 3 (90μl) bya buffer muri buffer neza (kare) yibikoresho byo kwipimisha."
+      }
+
     }
     ,{
     "lang":  "pt",

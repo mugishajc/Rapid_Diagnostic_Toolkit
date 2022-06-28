@@ -14,6 +14,21 @@
         "page_7": "7: Add drawn specimen of blood into the round specimen well.\n\nDiscard the inverted cup in the biohazard box after use.",
         "page_8": "8: Add 4 drops of assay diluent into the square assay diluent well."
       }
+    },
+    {
+      "lang":  "RW",
+      "strings":
+      {
+        "page_1": "1: Reba itariki izarangiriraho. Niba igikoresho cyararangiye, koresha ikindi gikoresho cyabugenewe. ",
+        "page_2": "2: Ambara uturindantoki. Koresha uturindantoki dushya kuri buri murwayi.",
+        "page_3": "3: Fungura ibikoresho byifashishwa mugusuzuma. ku kindi gikoresho niba ibara ari icyatsi, andikaho amazina y'umurwayi usuzumwa.",
+        "page_4": "4: Fungura arukoru unasukure urutoki ry' usuzumwa \n Rindira arukoru yume kurutoki kugirango isuzumwa rikorwe neza nyamuneka.",
+        "page_5": "5: Ukuresheje agakoresho kabugenewe jomba kurutoki ry'umurwayi.\n\n Hita ukuraho ako gashinge nyuma yo kukajomba kurutoki nyuma yo kukajomba kurutoki.",
+        "page_6": "6: Koresha agakoresho kabugenewe  mu gukusanya igitonyanga cy' amaraso",
+        "page_7": "7: Ongeramo urugero ruke rwamaraso yakusanyije neza.\n\n Nyuma yo gukusanya amaraso bika ahabugenewe ako gakombe wakoresheje mugufata amaraso.",
+        "page_8": "8: Ongeramo ibitonyanga bine mukazu kabugenewe muri ako gakorsho kifashishwa mugusuzuma."
+      }
+
     }
     ,{
     "lang":  "pt",

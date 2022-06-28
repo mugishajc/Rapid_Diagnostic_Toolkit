@@ -14,6 +14,21 @@
         "page_7": "Dispense 5 μl of drawn blood into round specimen well.",
         "page_8": "Hold assay diluent bottle vertically and dispense 4 drops of assay diluent into the assay diluent well. Exactly, 4 drops should be added. Do not let bottle tip touch device in order to avoid cross-contamination"
       }
+  },{
+    "lang":  "rw",
+    "strings":
+    {
+      "page_1": "Fungura ipaki hanyuma urebe ibikurikira\n1. Igikoresho cyo kugerageza hamwe na desiccant mumufuka wihariye\n2. \n3. Ikoreshwa ryikigereranyo byusaba (5 μl) - Capillary pipette\n4. Sterile lancet\n5. Arukoru yabugenewe\n6. Amabwiriza yo gukoresha ",
+      "page_2": "Mbere na mbere banza usome amabwirirza ari kumwe ari mubikoresho bya Bioline™ Malaria Ag P.f/P.v .\n\nIgikurikiraho , reba igihe ntarengwa kiri inyuma kubikoresho. Niba igihe ntarengwa cyarageze koresha ibindi bikoresho. kugirango utabona ibisubizo bitaribyo cg bipfuye, Reba neza ibikoresho byose biri kumwe.",
+      "page_3": "Fungura igiresho cyifashishwa mugupima urebe ibikurikira:\n1. Ahagenewe ibisubuzo\n2. ikigereranyo kigaragara neza\n3. Suzuma neza \n maze wandike kugakoresho amazina yusuzumwa",
+      "page_4": "Sukura neza urutoki ukoresheje arukoru nipamba.",
+      "page_5": "ukoresheje agakorsho kabugenewe , jomba kurutoki , nurangiza uhita ushyira ako gashinge ahabugenewe.",
+      "page_6": "Ukoresheje 5 µl capillary pipette yatanzwe, shushanya amaraso kumurongo wumukara.",
+      "page_7": "Tanga 5 μl y'amaraso yakuwe muburyo bwiza.",
+      "page_8": "Fata icupa ryuzuye icupa uhagarike kandi utange ibitonyanga 4 bya assay diluent neza. reba neza, ibitonyanga 4 bigomba kongerwamo. Ntukemere ko icupa ryibikoresho bikoranaho kugirango wirinde kwanduzanya"
+    }
+
+
   },
     {
       "lang":  "fr",

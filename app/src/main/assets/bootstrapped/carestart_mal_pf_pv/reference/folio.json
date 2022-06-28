@@ -13,6 +13,20 @@
         "page_5": "Step 7: Add 5μl of whole blood into “S” well",
         "page_6": "Step 8: Add 2 drops (60μl) of buffer solution into “A” Well. Start a Timer"
       }
+    },
+    {
+      "lang":  "rw",
+      "strings":
+      {
+        "page_1": "Intambwe ya mbere: Ambara ga nshyashya muntoki.\n\n Intambwe ya kabiri: Andika amazina y'umurwayi kuri kasete\n\nIntambwe ya gatatu: Sukura ahantu ugomba gutoborwa ukoresheje arukoro yabugenewe. Banza ureke iyo arukoro yume kuntoki mbere yo gukomeza kuyindi ntambwe ikurikira.",
+        "page_2": "Intambwe ya kane: Ukoresheje agakoresho kabugenewe jomba kurutoki aho wamaze gusukura ",
+        "page_2a": "Intambwe ya Gatanu: Hanagura igitonyanga cy' amaraso cyambere ukoresheje ipamba yabugenewe.",
+        "page_3": "Intambwe ya Gatandatu: Kusanya icyitegererezo cyamaraso (5μl) ukoresheje ibikoresho byoherejwe cyangwa micopipette.",
+        "page_4": "Kusanya icyitegererezo kumurongo wagenwe",
+        "page_5": "Intambwe ya karindwi: Ongeramo 5μl yamaraso yose muri A neza",
+        "page_6": "Intambwe ya munani: Ongeramo ibitonyanga 2 (60μl) byumuti wa buffer muri "A" neza. Tangiza mubazi"
+      }
+
     }
     ,{
     "lang":  "fr",
